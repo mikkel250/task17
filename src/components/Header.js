@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Welcome(props) {
     return <h1>Welcome, {props.name}</h1>
 };
@@ -12,3 +14,9 @@ function Greeting(props) {
     }
     return <SignUp />;
 }
+
+function Header(props) {
+    return (<header className='App-header'><h1>{Greeting}</h1></header>)
+}
+
+export default Header;

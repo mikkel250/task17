@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Product(props) {
     const numbers = props.numbers;
     const listItems = numbers.map((number) =>
@@ -8,3 +10,5 @@ function Product(props) {
         
     return (<ul>{listItems}</ul>);
 }
+
+export default Product;
